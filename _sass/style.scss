@@ -1,73 +1,8 @@
-//            //
-//  SETTINGS  //
-//            //
+//               //
+//  MUSE BRIDAL  //
+//               //
 
-
-// THEME COLOURS //
-
-$c-black: #373333;
-$c-grey: #726C2C;
-$c-paper: #F2F2F2;
-$c-white: #FFFFFF;
-
-$c-blue: #9AD0D6;
-$c-metal: #919C8D;
-
-
-// FONTS //
-
-$f-body: "BrandonText", sans-serif;
-$f-title: "Bodoni", serif;
-
-
-// @FONT-FACE //
-
-@font-face {
-	font-family: 'Bodoni';
-	src: url('Bodoni.eot');
-	src: url('Bodoni.eot?#iefix') format('embedded-opentype'),
-		url('Bodoni.woff') format('woff'),
-		url('Bodoni.ttf')  format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'BrandonText';
-	src: url('BrandonText-BoldItalic.eot');
-	src: url('BrandonText-BoldItalic.eot?#iefix') format('embedded-opentype'),
-		url('BrandonText-BoldItalic.woff') format('woff'),
-		url('BrandonText-BoldItalic.ttf')  format('truetype');
-	font-weight: bold;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'BrandonText';
-	src: url('BrandonText-RegularItalic.eot');
-	src: url('BrandonText-RegularItalic.eot?#iefix') format('embedded-opentype'),
-		url('BrandonText-RegularItalic.woff') format('woff'),
-		url('BrandonText-RegularItalic.ttf')  format('truetype');
-	font-weight: normal;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'BrandonText';
-	src: url('BrandonText-Bold.eot');
-	src: url('BrandonText-Bold.eot?#iefix') format('embedded-opentype'),
-		url('BrandonText-Bold.woff') format('woff'),
-		url('BrandonText-Bold.ttf')  format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'BrandonText';
-	src: url('BrandonText-Regular.eot');
-	src: url('BrandonText-Regular.eot?#iefix') format('embedded-opentype'),
-		url('BrandonText-Regular.woff') format('woff'),
-		url('BrandonText-Regular.ttf')  format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
+@import
+	"includes/_reset.scss",
+	"includes/_settings.scss"
+;
