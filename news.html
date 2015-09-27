@@ -1,0 +1,24 @@
+---
+layout: default
+permalink: /news/
+---
+
+<header class="page-header">
+	<h1 class="page-header__title">News</h1>
+</header>
+
+<ul class="news-posts">
+  {% for post in site.posts %}
+
+    <li class="news-posts__item">
+    	<img class="news-posts__item__image" src="{{ post.image }}" alt="{{ post.title }}">
+
+    	<div class="news-posts__item__content">
+    		<h1 class="news-posts__item__content__title">{{ post.title }}</h1>
+    		<time class="news-posts__item__content__date">{{ post.date | date: "%b %-d, %Y" }}</time>
+    		<p class="news-posts__item__content__excerpt">{{ post.excerpt }}</p>
+    	</div>
+    </li>
+
+  {% endfor %}
+</ul>
