@@ -1,10 +1,10 @@
 # Site settings
-title: Muse Birdal
+title: Muse Bridal
 email: contact@musebridal.co.uk
 description: > # Bridal outfitter in Newport, Shropshire.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://musebridal.co.uk" # the base hostname & protocol for your site
+baseurl: ""
+url: "http://musebridal.co.uk/"
 
 # Build settings
 markdown: kramdown
-ignore: [node_modules]
+ignore: [node_modules, package.json]

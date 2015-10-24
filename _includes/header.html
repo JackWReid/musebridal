@@ -1,19 +1,25 @@
 <header class="site-header">
-	<div class="site-header__logo">
-		<img src="img/logo.svg" alt="Muse Bridal">
-	</div>
+
+	<a href="{{ site.url }}">
+		<div class="site-header__logo">
+			<img src="{{ site.url }}images/logo.svg" alt="Muse Bridal">
+		</div>
+	</a>
+
 	<div class="site-header__info">
 		<p class="site-header__info__contact">
-			<em>Tel: </em>01952 814631<br>
-			<em>Email: </em><a href="mailto:contact@musebridal.co.uk">contact@musebridal.co.uk</a>
-		</div>
+			Tel: 01952 814631<br>
+			Email: <a href="mailto:contact@musebridal.co.uk">contact@musebridal.co.uk</a>
+		</p>
+
 		<div class="site-header__info__social">
 			<a href="http://facebook.com/musebridal">
-				<img src="img/social/facebook.svg" alt="Muse Bridal Facebook">
+				<img src="{{ site.url }}images/social/facebook.svg" alt="Muse Bridal Facebook">
 			</a>
 			<a href="http://twitter.com/musebridal">
-				<img src="img/social/twitter.svg" alt="Muse Bridal Twitter">
+				<img src="{{ site.url }}images/social/twitter.svg" alt="Muse Bridal Twitter">
 			</a>
 		</div>
 	</div>
+
 </header>

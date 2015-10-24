@@ -1,0 +1,31 @@
+//                  //
+//  CONTACT STYLES  //
+//                  //
+
+.contact-info{
+	margin: 0 auto;
+	padding: 1em;
+	max-width: $m-content-column;
+	display: flex;
+}
+
+	.contact-info__column{
+		max-width: 30em;
+		text-align: justify;
+
+		&:first-child{
+			margin-right: 2em;
+		}
+	}
+
+.contact-map{
+	iframe{
+		margin-bottom: -10px;
+	}
+}
+
+@media screen and (max-width: $br-tablet){
+	.contact-info{
+		display: block;
+	}
+}
