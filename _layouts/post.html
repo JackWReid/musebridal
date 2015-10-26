@@ -8,6 +8,8 @@ layout: default
     <p class="post-header__meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
+  <img class="post-image" src="{{ page.image }}" alt="{{ page.title }}">
+
   <article class="post-content">
     {{ content }}
   </article>

@@ -13,8 +13,12 @@ permalink: /news/
 
     <li class="news-posts__item">
       <a href="{{ site.url }}{{ post.url }}">
-    		<h1 class="news-posts__item__title">{{ post.title }}</h1>
-    		<time class="news-posts__item__date">{{ post.date | date: "%b %-d, %Y" }}</time>
+      	<div class="news-posts__item__image" style="background: url('{{ post.image }}'); background-size: cover; background-position: center;"></div>
+      	<div class="news-posts__item__wrap">
+	    		<h1 class="news-posts__item__title">{{ post.title }}</h1>
+	    		<time class="news-posts__item__date">{{ post.date | date: "%b %-d, %Y" }}</time>
+	    		{{ post.excerpt }}
+      	</div>
       </a>
     </li>
 

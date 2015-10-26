@@ -24,6 +24,11 @@
 			font-style: italic;
 		}
 
+	.post-image{
+		max-width: $m-content-column;
+		margin: 1em auto;
+	}
+
 	.post-content{
 		margin-top: 3em;
 	}
@@ -32,3 +37,7 @@
 			max-width: 30em;
 			text-align: justify;
 		}
+
+.post img{
+	margin-bottom: 1em;
+}

@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Runaway Bride
+image: http://musebridal.co.uk/images/articles/shropshiremagazine.jpg
 ---
-
-![Shropshire Magazine Cover](http://musebridal.co.uk/images/articles/shropshiremagazine.jpg)
 
 Muse Bridal were pleased to be invited to join the Shropshire Magazine for their bridal issue photo shoot.  We enjoyed a lovely afternoon in the autumn sunshine at the Valley Hotel in Ironbridge along with the Editor and staff for the Magazine, and as it was such a beautiful day, they decided to take advantage of our glorious landmark down the road and have a few shots by the Ironbridge. They insisted we went in separate cars as they worried about the new ivory dress in what was claimed to be a messy car.
 
