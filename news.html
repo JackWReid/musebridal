@@ -17,7 +17,8 @@ permalink: /news/
       	<div class="news-posts__item__wrap">
 	    		<h1 class="news-posts__item__title">{{ post.title }}</h1>
 	    		<time class="news-posts__item__date">{{ post.date | date: "%b %-d, %Y" }}</time>
-	    		{{ post.excerpt }}
+	    		{{ post.excerpt | truncatewords:30 }}
+          <p class="news-posts__item__readmore">Read More</p>
       	</div>
       </a>
     </li>

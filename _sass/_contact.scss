@@ -7,16 +7,23 @@
 	padding: 1em;
 	max-width: $m-content-column;
 	display: flex;
+	justify-content: center;
 }
 
 	.contact-info__column{
 		max-width: 30em;
 		text-align: justify;
-
-		&:first-child{
-			margin-right: 2em;
-		}
 	}
+
+	.contact-info__column:nth-child(2){
+		margin: 0 2em;
+	}
+
+.contact-image{
+	margin-top: 1em;
+	height: 300px;
+	width: 250px;
+}
 
 .contact-map{
 	iframe{

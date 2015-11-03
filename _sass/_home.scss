@@ -31,9 +31,7 @@
 			}
 		}
 
-		.introduction--wide__content__image{
-			max-height: 500px;
-			overflow-y: hidden;
+		.introduction--wide__image img{
 			margin: 0 auto;
 		}
 
@@ -44,22 +42,21 @@
 }
 
 	.home-contact__title{
-		width: $m-content-column;
+		width: 1000px;
 		margin: .5em auto;
 		font-size: 3em;
 		font-weight: normal;
 	}
 
 	.home-contact__content{
-		width: $m-content-column;
+		width: 1000px;
 		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
+		align-items: flex-start;
 	}
 
 		.home-contact__content__text{
-			margin-right: 4em;
-
 			p{
 				max-width: 30em;
 				text-align: justify;
@@ -68,7 +65,7 @@
 
 		.home-contact__content__button{
 			padding: 1em;
-			background: $c-metal;
+			background: $c-blue;
 			color: $c-white;
 			text-align: center;
 			border-radius: $m-border-radius;
@@ -147,4 +144,12 @@
 	}
 
 }
+
+.home-contact__image{
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
 
