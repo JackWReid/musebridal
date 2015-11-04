@@ -1,10 +1,10 @@
 {
-  "name": "jackwreid.uk",
-  "description": "Jack Reid portfolio website and blog.",
-  "version": "3.0.1",
+  "name": "musebridalsite",
+  "description": "The Muse Bridal website, built on Jekyll.",
+  "version": "1.0.0",
   "author": "Jack Reid",
-  "repository": "https://github.com/JackWReid/jackwreid.github.io.git",
-  "homepage": "http://jackwreid.uk",
+  "repository": "https://github.com/JackWReid/musebridal.git",
+  "homepage": "http://musebridal.co.uk",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.1",
