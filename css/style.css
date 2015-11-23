@@ -504,7 +504,7 @@ html {
   font-style: italic; }
 
 .post-image {
-  max-width: 900px;
+  max-width: 30em;
   margin: 1em auto; }
 
 .post-content {
