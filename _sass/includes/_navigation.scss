@@ -1,0 +1,25 @@
+/* ============== *\
+*    NAVIGATION    *
+\* ============== */
+
+
+.site-nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background: $c-grey;
+	color: $c-white;
+	line-height: 1em;
+
+	a{
+		display: block;
+		flex: 1;
+		padding: 15px 10px 10px;
+		text-align: center;
+		transition: $tr-quick-fade;
+
+		&:hover{
+			background: $c-blue;
+		}
+	}
+}

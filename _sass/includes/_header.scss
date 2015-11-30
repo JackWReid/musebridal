@@ -1,0 +1,55 @@
+/* ============== *\
+*      HEADER      *
+\* ============== */
+
+.site-header{
+	height: 160px;
+	width: 100%;
+	padding: 1em;
+	background: $c-grey;
+	color: $c-white;
+
+	a{
+		display: block;
+		max-height: 100%;
+	}
+
+	&__logo{
+		margin: 0 auto;
+		
+		img{
+			width: 360px;
+			height: 130px;
+			margin: 0 auto;
+		}
+	}
+
+	&__info{
+		width: 100%;
+		max-height: 100%;
+		display: flex;
+		justify-content: space-between;
+		transform: translateY(-90px);
+		margin-bottom: -50px;
+
+		&__contact{
+			margin-bottom: 0;
+		}
+
+		&__social{
+			display: flex;
+			align-items: flex-end;
+			a{ display: block; }
+
+			img{
+				height: 25px;
+				width: 25px;
+				margin-left: 5px;
+			}
+		}
+	}
+
+	@media screen and (max-width: $br-tablet){
+		display: none;
+	}
+}

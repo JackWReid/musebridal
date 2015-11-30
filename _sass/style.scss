@@ -1,16 +1,20 @@
-//               //
-//  MUSE BRIDAL  //
-//               //
+/* ============== *\
+*     STYLE.CSS    *
+\* ============== */
+
 
 @import
-	"includes/_reset.scss",
+	"includes/reset.scss",
 	"includes/fonts.scss",
-	"includes/_settings.scss",
+	"includes/settings.scss",
+	"includes/header.scss",
+	"includes/navigation.scss",
 
 	"global.scss",
-	"home.scss",
-	"bridal.scss",
-	"news.scss",
-	"contact.scss",
-	"post.scss"
+
+	"pages/home.scss",
+	"pages/bridal.scss",
+	"pages/news.scss",
+	"pages/contact.scss",
+	"pages/post.scss"
 ;

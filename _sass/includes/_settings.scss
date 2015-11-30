@@ -1,9 +1,10 @@
-//            //
-//  SETTINGS  //
-//            //
+/* ============== *\
+*     STYLE.CSS    *
+\* ============== */
 
 
-// THEME COLOURS //
+
+/* == Colours == */
 
 $c-black: #373333;
 $c-grey: #807979;
@@ -14,22 +15,29 @@ $c-blue: #9AD0D6;
 $c-metal: #919C8D;
 
 
-// FONTS //
+
+/* == Font Stacks == */
 
 $f-body: "Garamond", serif;
 $f-title: "Exmouth", serif;
 
 
-// MEASURES //
+
+/* == Measures == */
 
 $m-content-column: 900px;
 $m-border-radius: 10px;
+
+
+
+/* == Breakpoints == */
 
 $br-tablet: 1000px;
 $br-mobile: 400px;
 
 
-// TRANSITIONS //
+
+/* == Transitions == */
 
 $tr-quick-fade: all .3s ease-in;
 
