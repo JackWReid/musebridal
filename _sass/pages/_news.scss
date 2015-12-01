@@ -1,49 +1,51 @@
-//               //
-//  NEWS STYLES  //
-//               //
+/* ============== *\
+*       NEWS       *
+\* ============== */
+
+
 
 .news-posts{
 	margin: 0 auto;
 	max-width: $m-content-column;
 	padding: 1em;
-}
 
-	.news-posts__item{
+	&__item{
 		margin: 2em auto;
 
 		a{
 			display: flex;
 		}
-	}
 
-		.news-posts__item__image{
+		&__image{
 			height: 300px;
 			width: 300px;
 		}
 
-		.news-posts__item__wrap{
+		&__wrap{
 			margin-left: 2em;
+
+			p{
+				max-width: 30em;
+				text-align: justify;
+				line-height: 1.5em;
+			}
 		}
 
-		.news-posts__item__title{
+		&__title{
 			font-weight: normal;
 			line-height: 1.2em;
 			margin: 0;
 		}
 
-		.news-posts__item__date{
+		&__date{
 			color: $c-metal;
 			font-style: italic;
 		}
 
-		.news-posts__item__wrap p{
-			max-width: 30em;
-			text-align: justify;
-			line-height: 1.5em;
-		}
-
-		.news-posts__item__readmore{
+		&__readmore{
 			color: $c-metal;
 			text-decoration: underline;
 			font-style: italic;
 		}
+	}
+}

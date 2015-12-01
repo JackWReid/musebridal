@@ -1,12 +1,15 @@
-//            //
-//  HOMEPAGE  //
-//            //
+/* =============== *\
+*      HOMEPAGE     *
+\* =============== */
+
+
+
+/* == Full Width Intro Element == */
 
 .introduction--wide{
 	padding: 2em 1em;
-}
 
-	.introduction--wide__title{
+	&__title{
 		margin: .5em 0;
 		font-family: $f-title;
 		font-weight: normal;
@@ -15,12 +18,11 @@
 		text-align: center;
 	}
 
-	.introduction--wide__content{
+	&__content{
 		width: $m-content-column;
 		margin: 0 auto;
-	}
 
-		.introduction--wide__content__text{
+		&__text{
 			margin: 2em auto 0;
 
 			p{
@@ -30,126 +32,139 @@
 				text-align: justify;
 			}
 		}
+	}
 
-		.introduction--wide__image img{
-			margin: 0 auto;
+	&__image img{
+		margin: 0 auto;
+	}
+
+	@media screen and (max-width: $br-tablet){
+		padding: 0;
+		max-width: 100vw;
+		overflow-x: hidden;
+
+		&__title{
+			font-size: 3rem;
+			margin: .5em 0;
 		}
+
+		&__content{
+			width: 100%;
+			padding: 1em;
+		}
+	}
+}
+
+
+
+/* == Contact CTA == */
 
 .home-contact{
 	width: 100%;
 	padding: 2em 1em;
 	background: $c-paper;
-}
 
-	.home-contact__title{
+	&__title{
 		width: 1000px;
 		margin: .5em auto;
 		font-size: 3em;
+		line-height: 1.2em;
 		font-weight: normal;
 	}
 
-	.home-contact__content{
+	&__content{
 		width: 1000px;
 		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
-	}
 
-		.home-contact__content__text{
-			p{
-				max-width: 30em;
-				text-align: justify;
-			}
+		&__text p{
+			max-width: 30em;
+			text-align: justify;
 		}
 
-		.home-contact__content__button{
+		/* Stupid little picture of the
+		*  birds. */
+		&__image{
+			height: 200px;
+			width: 200px;
+			background-size: cover;
+			background-position: center;
+		}
+
+		&__button{
 			padding: 1em;
 			background: $c-blue;
 			color: $c-white;
 			text-align: center;
 			border-radius: $m-border-radius;
-		}
 
-			.home-contact__content__button__message{
+			&__message{
 				display: block;
 			}
 
-			.home-contact__content__button__number{
+			&__number{
 				display: block;
 				font-size: 1.5em;
 				font-style: italic;
 			}
+		}
+	}
+
+	@media screen and (max-width: $br-tablet){
+		/* Collapse all children to vertical stack
+		*  in mobile sizes. */
+		& > *{
+			max-width: 100%;
+			display: block;
+		}
+
+		&__title{
+			margin-top: 0;
+		}
+
+		&__content{
+			width: 100%;
+		}
+	}
+}
+
+
+
+/* == Un-used/finished Testimonials == */
 
 .testimonials{
 	width: 100%;
 	padding: 2em 1em;
-}
 
-	.testimonials__title{
+	&__title{
 		width: $m-content-column;
 		margin: .5em auto;
 		font-size: 3em;
+		line-height: 1.2em;
 		font-weight: normal;
 	}
 
-	.testimonials__list{
+	&__list{
 		width: $m-content-column;
 		margin: 0 auto;
 	}
 
-@media screen and (max-width: $br-tablet){
-	.introduction--wide{
-		padding: 0;
-		max-width: 100vw;
-		overflow-x: hidden;
-	}
-
-		.introducton--wide__title{
-			font-size: 3rem;
-			margin: .5em 0;
+	@media screen and (max-width: $br-tablet){
+		/* Collapse all children to vertical stack
+		*  in mobile sizes. */
+		& > *{
+			max-width: 100%;
+			display: block;
 		}
 
-		.introduction--wide__content{
-			width: 100%;
-			padding: 1em;
-		}
-
-	.home-contact > * {
-		max-width: 100%;
-		display: block;
-	}
-
-		.home-contact__title{
-			line-height: 1.2em;
+		&__title{
 			margin-top: 0;
 		}
 
-		.home-contact__content{
+		&__list{
 			width: 100%;
 		}
-
-	.testimonials > *{
-		max-width: 100%;
-		display: block;
-
-			.testimonials__title{
-				line-height: 1.2em;
-				margin-top: 0;
-			}
-
-			.testimonials__list{
-				width: 100%;
-			}
 	}
-
 }
-
-.home-contact__image{
-	height: 200px;
-	width: 200px;
-	background-size: cover;
-	background-position: center;
-}
-
-

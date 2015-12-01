@@ -22,4 +22,11 @@
 			background: $c-blue;
 		}
 	}
+
+	/* Need to find an actual solution for this.
+	*  Hiding the nav for mobile users isn't
+	*  really acceptable. */
+	@media screen and (max-width: $br-mobile){
+		display: block;
+	}
 }

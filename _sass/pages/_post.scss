@@ -1,43 +1,43 @@
-//               //
-//  POST STYLES  //
-//               //
+/* =============== *\
+*        POST       *
+\* =============== */
+
+
 
 .post{
 	max-width: 30em;
 	padding: 1em;
 	margin: 0 auto;
-}
 
-	.post-header{
-
-	}
-
-		.post-header__title{
+	&-header{
+		&__title{
 			margin-bottom: 0;
 			font-weight: normal;
 			font-size: 3rem;
 			line-height: 1.2em;
 		}
 
-		.post-header__meta{
+		&__meta{
 			color: $c-metal;
 			font-style: italic;
 		}
+	}
 
-	.post-image{
+	&-image{
 		max-width: 30em;
 		margin: 1em auto;
 	}
 
-	.post-content{
+	&-content{
 		margin-top: 3em;
-	}
 
-		.post-content p{
+		 p{
 			max-width: 30em;
 			text-align: justify;
 		}
+	}
 
-.post img{
-	margin-bottom: 1em;
+	img{
+		margin-bottom: 1em;
+	}
 }

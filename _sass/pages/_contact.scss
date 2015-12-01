@@ -1,6 +1,7 @@
-//                  //
-//  CONTACT STYLES  //
-//                  //
+/* ============== *\
+*      CONTACT     *
+\* ============== */
+
 
 .contact-info{
 	margin: 0 auto;
@@ -8,16 +9,21 @@
 	max-width: $m-content-column;
 	display: flex;
 	justify-content: center;
-}
 
-	.contact-info__column{
+	&__column{
 		max-width: 30em;
 		text-align: justify;
+
+		&:nth-child(2){
+			margin: 0 2em;
+		}
 	}
 
-	.contact-info__column:nth-child(2){
-		margin: 0 2em;
+	/* Collapse to vertical at mobile sizes. */
+	@media screen and (max-width: $br-tablet){
+		display: block;
 	}
+}
 
 .contact-image{
 	margin-top: 1em;
@@ -28,11 +34,5 @@
 .contact-map{
 	iframe{
 		margin-bottom: -10px;
-	}
-}
-
-@media screen and (max-width: $br-tablet){
-	.contact-info{
-		display: block;
 	}
 }
