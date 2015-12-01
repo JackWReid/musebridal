@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     // CSS
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
+    minify = require('gulp-minify-css'),
 
     // JS BUILD
     concat = require('gulp-concat'),
@@ -23,6 +24,7 @@ gulp.task('sass', function() {
   gulp.src('_sass/style.scss')
     .pipe(sass({style: 'compressed'}))
     .pipe(autoprefixer())
+    .pipe(minify())
     .pipe(gulp.dest('css/'))
 });
 
