@@ -3,8 +3,8 @@ title: Muse Bridal
 email: contact@musebridal.co.uk
 description: > # Bridal outfitter in Newport, Shropshire.
 baseurl: ""
-url: "http://musebridal.co.uk/"
-# url: "/Users/jack/dev/muse\ bridal/_site/"
+url: "http://www.musebridal.co.uk/"
+# url: "/Users/jack/dev/musebridal/_site/"
 
 # Build settings
 markdown: kramdown

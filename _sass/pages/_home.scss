@@ -34,7 +34,8 @@
 		}
 	}
 
-	&__image img{
+	&__image{
+		max-width: $m-content-column;
 		margin: 0 auto;
 	}
 
